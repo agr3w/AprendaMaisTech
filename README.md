@@ -1,12 +1,66 @@
-# React + Vite
+# Aprenda+ Tech 🎓🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Projeto desenvolvido para o **1º Hackaton da UNIFACEAR** por alunos do 3º semestre de Análise e Desenvolvimento de Sistemas
 
-Currently, two official plugins are available:
+## 🏆 Contexto do Projeto
+**Desafio do Hackaton:** Criar uma solução tecnológica que melhore a experiência educacional na universidade
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Equipe ADS - 3º Semestre:**
+- **Integrantes:** [Weslley Luiz kampa, Beatriz Carvalho e Leandra Lopes]
+- **Orientador:** [Rosanete Grassiani dos Santos, Fernanda Manica, Marcio Fabiano Iavorski e Tanise Portela]
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades Principais
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎮 Sistema Interativo de Aprendizado
+```markdown
+- 🔄 Atividades com Drag-and-Drop Pedagógico
+- ✅ Validação em Tempo Real com Feedback Visual
+- 📊 Sistema de Progresso com Gamificação
+- 🏅 Conquistas e Níveis de XP
+```
+
+## 💻 Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/agr3w/aprenda-mais-tech.git
+```
+
+2. Instale as dependências:
+```bash
+cd aprenda-mais-tech && npm install
+```
+
+## ⚙ Configuração
+
+### Scripts Disponíveis
+```bash
+npm run dev    # Inicia ambiente de desenvolvimento
+npm run build  # Cria build de produção
+npm run test   # Executa testes unitários
+npm run lint   # Verifica qualidade de código
+```
+
+## 🚀 Uso
+
+### Estrutura de Componentes
+```jsx
+// Exemplo de componente de curso
+const CourseCard = ({ title, description }) => (
+  <div className="course-card">
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </div>
+);
+```
+
+### Fluxo Principal
+1. Acesse `/cursos`
+2. Selecione um curso
+3. Complete as atividades
+4. Acompanhe seu progresso
+
+---
+
+**🌟 Aprenda, Pratique, Evolua!**  
+*Transformando educação através da tecnologia!*
